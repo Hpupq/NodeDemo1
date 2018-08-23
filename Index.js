@@ -9,6 +9,8 @@ app.get('/books',function(request,response){
 app.get('/hostel',function(req,res){
 res.sendFile(__dirname+'/Index.html')
 });
-var server=app.listen(8080,function(REQ,RES){
+var port=process.env.PORT || 8080
+
+var server=app.listen(port,function(REQ,RES){
 console.log('sERVER STARTED');    
 });
