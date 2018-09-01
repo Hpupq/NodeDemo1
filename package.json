@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "nodejs -quote-a-day",
   "version": "1.0.0",
   "description": "",
   "main": "Index.js",
@@ -11,7 +11,5 @@
   "dependencies": {
     "express": "^4.16.3"
     
-  },"devDependencies": {
-    "nodemon": "^1.18.3"
   }
 }
