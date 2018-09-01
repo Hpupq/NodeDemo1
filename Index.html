@@ -1,9 +1,28 @@
-<!DOCTYPE html>
 <html>
+<head>
+  <title>A quote for a day</title>
+</head>
 <body>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div align="center">
+  <h1 style="color:blue" id="quote"></h1>
+</div>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<script>
+var quoteArray=[
+  "You cannot escape the responsibility of tomorrow by evading it today",
+  "All that I am, or hope to be, I owe to my angel mother",
+  "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing",
+  
+
+  "Always turn a negative situation into a positive situation",
+  "I've always believed that if you put in the work, the results will come"
+               ];
+
+          var randomNumber=Math.floor((Math.random() * 5) + 1);
+          document.getElementById('quote').innerHTML=quoteArray[randomNumber-1];
+
+</script>
 
 </body>
 </html>
